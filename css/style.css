@@ -450,3 +450,36 @@ display: inline-block;
 }
 
 /*Reviews End*/
+/*Discover Start*/
+#discover{
+    background: url("../images/bg-food.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:5rem 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+#discover .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#discover span{
+    font-size: 35px;
+    font-weight: 700;
+}
+#discover h2{
+    font-size: 50px;
+    color: #fff;
+    max-width: 700px;
+    margin: 2rem auto 3rem;
+    line-height: 1.3;
+}
+/*Discover End*/
